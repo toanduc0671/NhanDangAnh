@@ -1,6 +1,6 @@
 # Báo cáo chuyển tập tin ảnh bằng mqtt mosquitto python
 
-1. **set-up VMs**
+1. **set-up VMs** <br />
 em thực hiện trên hai con máy ảo sử dụng virtualbox <br />
 - VM1 (chạy ubuntu) - ip: 192.168.1.14
 - VM2 (chạy raspios) - ip: 192.168.1.13
