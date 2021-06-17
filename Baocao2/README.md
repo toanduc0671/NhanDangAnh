@@ -28,9 +28,10 @@ publish.single('topic', filecontent, qos=1, hostname = "192.168.1.12")
 
 Sau khi chạy file *mqtt_image_pub.py*, thư mục **gg** sẽ được nén thành dulieu.zip và đẩy sang máy raspberry pi qua bản tin mqtt 
 
+![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/run_pub.png)
+
+Tại raspberry pi, đã được chạy mqtt_image_sub.py để subcribe tới broker mqtt từ trước. Sau khi chạy file public trên, raspberry pi báo đã nhận được file dulieu.zip.
 ![]()
-
-
 
 
 ![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/Biden_on_pi.png)
