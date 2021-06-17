@@ -30,8 +30,8 @@ Sau khi chạy file *mqtt_image_pub.py*, thư mục **gg** sẽ được nén th
 
 ![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/run_pub.png)
 
-Tại raspberry pi, đã được chạy mqtt_image_sub.py để subcribe tới broker mqtt từ trước. Sau khi chạy file public trên, raspberry pi báo đã nhận được file dulieu.zip.
-![]()
+Tại raspberry pi, mqtt_image_sub.py đã được chạy từ trước để subcribe tới broker mqtt. Sau khi chạy file public trên bên ubuntu thì raspberry pi sẽ báo nhận được file dulieu.zip.
+![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/run_sub.png)
 
 
 ![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/Biden_on_pi.png)
