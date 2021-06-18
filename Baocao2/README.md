@@ -5,6 +5,9 @@ Thay vì gửi và nhận ảnh giữa 2 máy như trước thì trong bài báo
 
 ## Dưới đây là các bước demo:
 ### Test trường hợp nhận dạng fail:
+
+### Trên máy ubuntu:
+
 **Ảnh trên ubuntu**: <br />
 ![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/Chris_on_ubuntu.png)
 
@@ -29,6 +32,9 @@ publish.single('topic', filecontent, qos=1, hostname = "192.168.1.12")
 Sau khi chạy file *mqtt_image_pub.py*, thư mục **gg** sẽ được nén thành dulieu.zip và đẩy sang máy raspberry pi qua bản tin mqtt 
 
 ![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/run_pub.png)
+
+---------------------------------------------------------
+### Trên máy raspberrypi:
 
 Tại raspberry pi, mqtt_image_sub.py đã được chạy từ trước để subcribe tới broker mqtt. Sau khi chạy file public trên bên ubuntu thì raspberry pi sẽ báo nhận được file dulieu.zip. <br />
 ![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/run_sub.png) <br />
@@ -98,7 +104,7 @@ while True:
 
 Trường hợp này sẽ trả về kết quả **Fail** do khuôn mặt trong 2 bức ảnh không phải của cùng một người. Sau khi trả về kết quả thì code này sẽ xoá file zip cùng với folder *gg* nhận được sau giải nén đi để đợi lần nhận dữ liệu tiếp theo từ máy ubuntu và lại tự động quá trình này. <br />
 
-![]()
+![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/face_recognition.png)
 
 
 
