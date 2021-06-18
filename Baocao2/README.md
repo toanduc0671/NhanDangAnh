@@ -106,7 +106,9 @@ Trường hợp này sẽ trả về kết quả **Fail** do khuôn mặt trong 
 
 ![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/face_recognition.png)
 
+---------------------------------------------------------------
 
+### Quay trở lại máy ubuntu, thay đổi ảnh và chạy *mqtt_image_pub.py* để public ảnh sang raspberrypi
 
 
 
