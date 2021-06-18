@@ -69,7 +69,7 @@ $ python face_recognize.py
 ```
 Cũng giống như file *mqtt_image_sub.py*, ở trên raspberry pi được chạy sẵn cả file face_recognize.py nên chỉ cần tại máy ubuntu gửi file nén sang sẽ tự động nhận dạng khuôn mặt trong ảnh. <br />
 
-Ở đây em sử dụng thư viện dlib OpenCV và framework face-recognition [](https://pypi.org/project/face-recognition/). <br />
+Ở đây em sử dụng thư viện dlib OpenCV và framework face-recognition [https://pypi.org/project/face-recognition/](https://pypi.org/project/face-recognition/). <br />
 Em thấy sử dụng model này, thư viện của nó hỗ trợ tận răng 😅 không mất công train tập dữ liệu như bài lần trước em làm, và độ chính xác khá cao, em test với nhiều trường hợp đều cho ra kết quả đúng. Do không phải sử dụng những thư viện xử lý hình ảnh để train cũng giúp nó nhẹ hơn và so với việc cài đặt ở lần trước thì lần này dễ dàng và nhanh hơn rất nhiều. <br />
 
 
