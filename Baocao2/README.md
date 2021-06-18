@@ -106,12 +106,16 @@ Trường hợp này sẽ trả về kết quả **Fail** do khuôn mặt trong 
 
 ![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/face_recognition.png)
 
----------------------------------------------------------------
+------------------------------------------------------------
 
 ### Quay trở lại máy ubuntu, thay đổi ảnh và chạy *mqtt_image_pub.py* để public ảnh sang raspberrypi
 
-Lần này trên pi sẽ báo kết quả là **True**: <br />
+![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/face_recognition2.png)
+
+Lần này trên pi (vẫn trên cửa sổ chương trình chạy từ đầu) sẽ trả về kết quả là **True** : <br />
 ![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/Biden_on_ubuntu.png)
+
+Sau đó lại tự động xoá file zip cùng với folder *gg* và đợi lần gửi dữ liệu tiếp theo. 
 
 
 
