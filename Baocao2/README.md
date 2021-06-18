@@ -110,6 +110,9 @@ Trường hợp này sẽ trả về kết quả **Fail** do khuôn mặt trong 
 
 ### Quay trở lại máy ubuntu, thay đổi ảnh và chạy *mqtt_image_pub.py* để public ảnh sang raspberrypi
 
+Lần này trên pi sẽ báo kết quả là **True**: <br />
+![](https://raw.githubusercontent.com/toanduc0671/NhanDangAnh/main/image/week2/Biden_on_ubuntu.png)
+
 
 
 
