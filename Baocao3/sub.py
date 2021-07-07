@@ -16,12 +16,8 @@ def on_message(client, userdata, msg):
     file.close()
     print 'file image received'
 
-#  with open('image_new2.png', mode='wb') as file:
-#    file.write(base64.b64decode(gg['img2']))
-#    file.close()
-#    print 'file 2 received'
 
-  with open('newtext.txt', mode='wb') as file:
+  with open('newtext.txt', mode='w') as file:
     file.write(gg['text'])
     file.close()
     print 'file text received'
