@@ -1,0 +1,22 @@
+apiVersion: templates.gatekeeper.sh/v1beta1
+kind: ConstraintTemplate
+metadata:
+  name: selectnode
+spec:
+  crd:
+    spec:
+      names:
+        kind: SelectNode
+      validation:
+        openAPIV3Schema:
+          type: object
+  targets:
+    - target: admission.k8s.gatekeeper.sh
+      rego: |
+        package k8srequiredlabels
+
+        violation[{"msg": msg}] {
+          node := input.review.object.spec.nodeName
+          node == "node1"
+          msg := "user with namespace project-1 can't deploy workload to master"
+        }
